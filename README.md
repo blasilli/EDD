@@ -4,4 +4,4 @@ A Web-Based Editor for Declarative Process Models Using [easyDeclare](https://gi
 
 
 ## Webapp
-Try the online version of the tool: [blasilli.github.io/EDD](blasilli.github.io/EDD).
+Try the online version of the tool: [blasilli.github.io/EDD](https://blasilli.github.io/EDD).
