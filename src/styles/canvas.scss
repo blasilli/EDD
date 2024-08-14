@@ -1,0 +1,30 @@
+#canvas{
+  grid-area: canvas;
+  background: white /*#F5F5F6*/;
+  border-right: solid 1px #212529;
+}
+
+#canvas.on-moving{
+  cursor: grabbing;
+}
+
+#canvas-overview{
+  grid-area: canvas-overview;
+  background: white;
+  border-top: solid 1px #212529;
+}
+
+#canvas-overview .constraints{
+  stroke: black;
+  fill: transparent;
+}
+
+#canvas-overview .actvities{
+  stroke: black;
+  fill: grey;
+}
+
+#canvas-overview .focus{
+  fill: black;
+  opacity: 0.15;
+}

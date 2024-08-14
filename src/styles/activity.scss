@@ -1,0 +1,152 @@
+.activity > *{
+  outline: none !important;
+}
+
+.activity .selection-border{
+  fill: greenyellow;
+}
+
+.activity .drag-border{
+  fill: orangered;
+}
+
+.activity .border{
+  fill: #333333;
+}
+
+.activity .background{
+  fill: #F5F5F6;
+  cursor: pointer;
+}
+
+.activity.ondrag .background{
+  cursor: move;
+}
+
+.activity .handles > .area{
+  fill: transparent;
+}
+
+.activity .handles > .arrow{
+  fill: darkgray;
+  stroke: darkgray;
+}
+
+.activity .name .name-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display:flex;
+  text-align: center;
+}
+.activity .name .name-text{
+  font-family: monospace;
+  margin: 0 auto;
+  margin:auto;
+  font-size: 0.8em;
+}
+
+
+
+
+
+.activity .absence-box-rect {
+  fill: black;
+}
+
+.activity .absence-box-border {
+  fill: gray;
+}
+
+.activity .absence-box-text {
+  fill: white;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+
+
+
+
+.activity .existence-box-rect {
+  fill: white;
+}
+
+.activity .existence-box-border {
+  fill: black;
+}
+
+.activity .existence-box-text {
+  fill: black;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+
+.activity > g.existence-box.existence-min-0 > .existence-box-rect {
+  fill: black !important;
+}
+
+
+.activity > g.existence-box.existence-min-0 > .existence-box-text {
+  fill: white !important;
+}
+
+
+.activity .init-box-rect {
+  fill: white;
+}
+
+.activity .init-box-border {
+  fill: black;
+}
+
+.activity .init-box-text {
+  fill: black;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+
+.activity .end-box-rect {
+  fill: white;
+}
+
+.activity .end-box-border {
+  fill: black;
+}
+
+.activity .end-box-text {
+  fill: black;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+/*
+.activity-tooltip-template .activity-id{
+  font-family: monospace;
+  font-weight: 100;
+  font-size: small;
+}
+
+.activity-tooltip-template .row.left{
+  text-align: left;
+}
+
+.activity-tooltip-template hr{
+  background: #bdbdbd;
+}
+
+
+.activity-tooltip-template input[type=text]{
+  font-size: small;
+  background-color : #323232 !important;
+  color: whitesmoke !important;
+}
+
+.activity-tooltip-template .btn-sm{
+  font-size: 0.8em;
+}
+*/
